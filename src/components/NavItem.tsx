@@ -34,7 +34,7 @@ const NavItem = ({ category, handleOpen, isOpen, isAnyOpen }: NavItemProps) => {
       </div>
 
       {isOpen ? (
-        <div
+        <div 
           className={cn(
             "absolute inset-x-0 top-full text-sm text-muted-foreground",
             {
